@@ -1,0 +1,406 @@
+{
+  "id": "5d293c03-638f-48e9-ad42-8c7132ab48e2",
+  "version": "2.0",
+  "name": "myntra",
+  "url": "https://www.meesho.com/",
+  "tests": [{
+    "id": "4c3336fd-45f7-4814-9a7d-cb611182b32c",
+    "name": "main_page",
+    "commands": [{
+      "id": "e92cb1e6-56df-4bdf-a83a-064141776bcb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7cbc77c-e289-4754-acbf-f09794e66508",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03d7c413-b3dd-452b-9ad4-d1b1c87a22e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,831.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63bca632-af8c-419d-8a59-2c08aabb18f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1012.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fabcb1ee-c5de-4725-8ea8-8106452b6a00",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1201.5999755859375)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c15cb77e-2b1d-4e98-bbeb-00c7df64e8b9",
+    "name": "login",
+    "commands": [{
+      "id": "00ddc566-f8ff-4e50-9219-7c563e9ce428",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cfa8524-e9d4-4f65-add6-b9d79a602232",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cf2e3e4-ad1c-40c2-9caf-1b5f55057764",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-userIconsContainer > .desktop-userTitle",
+      "targets": [
+        ["css=.desktop-userIconsContainer > .desktop-userTitle", "css:finder"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/div[2]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "452de332-03be-432a-8add-668e4dd13551",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-linkButton",
+      "targets": [
+        ["css=.desktop-linkButton", "css:finder"],
+        ["xpath=//a[contains(text(),'login / Signup')]", "xpath:link"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login?referer=https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebcea6c1-00e5-4356-a1d2-6c8dad1ff03f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='reactPageContent']/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8e41f70-9efc-4ef8-880a-12572ace0ff7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='reactPageContent']/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "7795100783"
+    }, {
+      "id": "06c2ef5b-f7eb-45e2-bb5d-c16704f9d191",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submitBottomOption",
+      "targets": [
+        ["css=.submitBottomOption", "css:finder"],
+        ["xpath=//div[@id='reactPageContent']/div/div/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c11c7d8e-1029-4cd8-b0d4-f5d761008cd8",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp0",
+      "targets": [
+        ["name=otp0", "name"],
+        ["css=.otpContainer > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='otp0']", "xpath:attributes"],
+        ["xpath=//div[@id='reactPageContent']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "6b54d63a-833a-47a6-94a1-fc99323012d8",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp1",
+      "targets": [
+        ["name=otp1", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='otp1']", "xpath:attributes"],
+        ["xpath=//div[@id='reactPageContent']/div/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "46eab34d-e6d2-464b-bda2-e932c0fc45cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp2",
+      "targets": [
+        ["name=otp2", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='otp2']", "xpath:attributes"],
+        ["xpath=//div[@id='reactPageContent']/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "2039f81f-8d70-4eeb-a959-a773c881ea0c",
+      "comment": "",
+      "command": "type",
+      "target": "name=otp3",
+      "targets": [
+        ["name=otp3", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='otp3']", "xpath:attributes"],
+        ["xpath=//div[@id='reactPageContent']/div/div[2]/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "4"
+    }]
+  }, {
+    "id": "b711ab25-46ce-41ad-b09b-4c9703b6f21d",
+    "name": "womens_section",
+    "commands": [{
+      "id": "ae1cdba2-d698-41e8-9a73-bdf862f7caca",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87de122e-92a7-4b28-97e4-e1faaaa7ac9d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc2aaf7a-6547-4b6b-8ace-ea88000aaca4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kurtas & Suits",
+      "targets": [
+        ["linkText=Kurtas & Suits", "linkText"],
+        ["css=.desktop-navContent:nth-child(2) .desktop-oddColumnContent:nth-child(1) li:nth-child(2) > .desktop-categoryLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Kurtas & Suits')]", "xpath:link"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/nav/div/div[2]/div/div/div/div/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/women-kurtas-kurtis-suits')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kurtas & Suits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4817b5a9-afb0-433a-809d-f97e70021559",
+    "name": "mens_section",
+    "commands": [{
+      "id": "45bd6416-9a00-4570-8d60-89e7ec80fd66",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d2504be-26e1-4fd2-b151-229dafbb45eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34283b69-5184-4287-bdb0-b3dccc86afd3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=T-Shirts",
+      "targets": [
+        ["linkText=T-Shirts", "linkText"],
+        ["css=.desktop-navContent:nth-child(1) .desktop-oddColumnContent:nth-child(1) li:nth-child(2) > .desktop-categoryLink", "css:finder"],
+        ["xpath=//a[contains(text(),'T-Shirts')]", "xpath:link"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/nav/div/div/div/div/div/div/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/men-tshirts')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'T-Shirts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "856f4620-5681-4c72-b2a6-2517b11c68f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,826.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8af90125-f8d6-4c22-b3d5-6b0a3697f6ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1160)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "012c910f-3d7a-43cb-be28-e09374dc2419",
+    "name": "add_to_bag",
+    "commands": [{
+      "id": "552f3a90-3b40-42ad-919f-a6870fefb0d1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cd19013-7acf-4882-bfad-93015ac378f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "038d1653-05f0-4bfd-86e1-6316b67b60d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kurtas & Suits",
+      "targets": [
+        ["linkText=Kurtas & Suits", "linkText"],
+        ["css=.desktop-navContent:nth-child(2) .desktop-oddColumnContent:nth-child(1) li:nth-child(2) > .desktop-categoryLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Kurtas & Suits')]", "xpath:link"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/nav/div/div[2]/div/div/div/div/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/women-kurtas-kurtis-suits')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kurtas & Suits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08e5de2a-daac-4b8d-a782-aaef81dc77b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-track",
+      "targets": [
+        ["css=.slick-track", "css:finder"],
+        ["xpath=//li[@id='30004427']/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6529",
+      "windowTimeout": 2000
+    }, {
+      "id": "55f02e07-639c-43ff-9f24-46f79ed88c15",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6529}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3237ed95-a58d-4bd7-be2f-a6871b41bb76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-add-to-bag",
+      "targets": [
+        ["css=.pdp-add-to-bag", "css:finder"],
+        ["xpath=//div[@id='mountRoot']/div/div/main/div[2]/div[2]/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c87857d8-b39c-4fd5-9e1f-bd87169d6e23",
+    "name": "search_bar",
+    "commands": [{
+      "id": "00b29129-9cc3-4de6-a874-76191e5a5933",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myntra.com/?utm_source=dms_google&utm_medium=searchbrand_cpc&utm_campaign=dms_google_searchbrand_cpc_Search_Brand_Myntra_Brand_India_BM_TROAS_SOK_New&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8dd6ed1-14dc-45c1-b67b-46f9f5271c28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "122dca81-9148-4dc6-ae13-380bfaffeac2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-searchBar",
+      "targets": [
+        ["css=.desktop-searchBar", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ead7865-dc00-40c8-9c9b-2d813e8da72a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.desktop-searchBar",
+      "targets": [
+        ["css=.desktop-searchBar", "css:finder"],
+        ["xpath=//input[@value='bangles']", "xpath:attributes"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bangles"
+    }, {
+      "id": "c8690d41-fd7c-49e0-96ae-4565c7308a76",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.desktop-searchBar",
+      "targets": [
+        ["css=.desktop-searchBar", "css:finder"],
+        ["xpath=//input[@value='bangles']", "xpath:attributes"],
+        ["xpath=//header[@id='desktop-header-cnt']/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c0735e94-f868-4f5d-baf8-c828534b3788",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca46b9ab-ca0c-4345-ad15-8a5430d78bce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,871.2000122070312)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "96a3ae50-4d78-49b7-84a1-3e9c779e4a31",
+    "name": "myntra",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4c3336fd-45f7-4814-9a7d-cb611182b32c", "c15cb77e-2b1d-4e98-bbeb-00c7df64e8b9", "012c910f-3d7a-43cb-be28-e09374dc2419", "4817b5a9-afb0-433a-809d-f97e70021559", "b711ab25-46ce-41ad-b09b-4c9703b6f21d"]
+  }, {
+    "id": "a97a633e-f8e0-4ce2-bb66-d3192be828d0",
+    "name": "ajio",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwikprbR09WHAxXXC4MDHa6kPEIYABAAGgJzZg&co=1&ase=2&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjryigt1eUCJa-tNXviN8nfyNfmKkCK7V9zkTbKtIFxYxIIMfLAhRRoCiMYQAvD_BwE&ei=DnmsZtefGpmX4-EPuvrQmQg&ohost=www.google.com&cid=CAESVOD25sNDWLwiVRX73_HOKAUCzRoDLgPxwDoogDs4qd772-28ymLggHLP_EK9LeEIsQ3m7N9NDJ01HpEvDM7PvHcgPLMVkXBswEueTh0PrwlE-6WjbA&sig=AOD64_1P7bkJWyCDs8iKf7Zln_ehgVBgVw&q&sqi=2&nis=4&adurl&ved=2ahUKEwjX3rHR09WHAxWZyzgGHTo9NIMQ0Qx6BAgTEAE", "https://www.meesho.com/"],
+  "plugins": []
+}
